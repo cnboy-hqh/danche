@@ -1,0 +1,56 @@
+/** 常用色值 **/
+/** 常用字体大小 **/
+.header {
+  background-color: #fff;
+}
+.header .header-top {
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+  padding: 0 20px;
+}
+.header .header-top .logo {
+  line-height: 55px;
+  text-align: left;
+  font-size: 18px;
+}
+.header .header-top .logo img {
+  height: 55px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.header .header-top a {
+  margin-left: 40px;
+  color: #f9c700;
+}
+.header .breadcrumb {
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #f9c700;
+  padding: 0 20px;
+}
+.header .breadcrumb .breadcrumb-title {
+  text-align: center;
+  font-size: 18px;
+}
+.header .breadcrumb .breadcrumb-title:after {
+  position: absolute;
+  left: calc(6vw - 7px);
+  top: 39px;
+  content: '';
+  display: block;
+  width: 10px;
+  border-top: 9px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+.header .breadcrumb .breadcrumb-right {
+  text-align: right;
+}
+.header .breadcrumb .breadcrumb-right .weather {
+  padding-left: 10px;
+}
+.simple-page .header-top {
+  background-color: #1890ff;
+  color: #fff;
+}
